@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px !important;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+.nav-link {
+    color: white !important;
+
+}
+
+.nav-link:hover {
+    color: rgb(243, 83, 83) !important;
+
+}
+
+
+.navbar-brand img {
+    width: 20vw;
+}
+
+
+
+
+.justify-content-center {
+    justify-content: start !important;
+    margin-left: 19vw;
+
+}
+
+
+.dropdown {
+    display: inline-block;
+    list-style: none;
+
+
+}
+
+.dropdown-item {
+    display: none;
+    color: white;
+    border: 1px white solid;
+}
+
+.nav-item {
+    margin-right: 5px;
+}
+
+
+
+
+nav {
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+}
+
+
+
+.zap {
+    margin-right: 1vw;
+}
+
+.zap img {
+
+    width: 2.3vw;
+
+
+}
+
+.zap img:hover {
+    width: 3.2vw;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.carousel-container {
+    box-sizing: border-box;
+    width: 100%;
+
+
+}
+
+.carousel-container img {
+    width: 100%;
+    height: 120vh;
+
+
+}
+
+
+.carousel-slide {
+
+    width: 100%;
+    height: auto;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+main img {
+    width: 100vw;
+}
+
+.alo img {
+    flex-grow: 5;
+    border: 5px solid black;
+    width: 15vw;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 10vw;
+}
+
+
+
+#desc p {
+    width: 20vw;
+    text-align: right;
+}
+
+#desc button {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    width: 10vw;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+
+    nav {
+        font-size: 5vw !;
+    }
+
+    .navbar-brand img {
+        display: none;
+    }
+
+    .dropdown-item {
+        border: 1px white solid;
+        color: white;
+        background-color: transparent;
+    }
+
+
+    .navbar-nav {
+        margin-left: -20vw;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- */
+
+    main {
+        height: 220vh;
+    }
+
+    .container {
+        width: 800px !important;
+        max-width: none;
+    }
+
+    .container img {
+        width: 100%;
+
+    }
+
+    .container button {
+        margin-left: 1px !important;
+        float: left !important;
+        width: 100% !important;
+    }
+
+    #desc {
+        width: 100% !important;
+        margin-left: 0px !important;
+        flex-grow: 1 !important;
+
+
+    }
+
+    #desc p {
+        line-height: 30px;
+        width: 30vw;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .carousel-container img {
+        height: 50vh;
+    }
+
+
+
+    .cardapio {
+        width: 100vw;
+        height: 20vh !important;
+    }
+
+    .cardapio a img {
+        width: 30vw;
+        margin-left: 1vw;
+        height: 20vh;
+        margin-bottom: 5% !important;
+    }
+
+    /* ---------------------------------------------------------------------------------- */
+    #pagC {
+        flex-direction: column;
+        margin-top: 5vh;
+        align-items: center;
+        height: 60vh !important;
+
+    }
+
+    #pagC h2 {
+        font-size: 50px;
+
+    }
+
+    /* --------------------------------------------------------------------------------------- */
+    form {
+        margin-right: 2% !important;
+        text-align: center;
+    }
+
+    form ul li {
+
+        width: 100%;
+    }
+
+    label {
+        width: 100%;
+        font-size: 40px !important;
+    }
+
+    .contatos {
+        order: 2;
+        height: 80vh !important;
+
+    }
+
+    .contatos input,
+    textarea {
+        width: 40vw !important;
+        height: 5vh;
+    }
+
+    .galery {
+        order: 1;
+        width: 80vw !important;
+        margin-top: 0vh !important;
+        margin-bottom: 1vh;
+
+    }
+
+    #h2g {
+        margin-bottom: 1px;
+        font-size: 50px;
+    }
+
+
+    footer {
+
+        text-align: center;
+        flex-direction: column;
+        margin-top: 50vh;
+        height: 50vh !important;
+
+    }
+
+    footer h2 {
+        font-size: 50px !important;
+        margin-left: 3vw;
+    }
+
+    footer #imgF img {
+        width: 60vw;
+    }
+
+    footer ul li,
+    a {
+        font-size: 3vw !important;
+    }
+
+    #redes img {
+        width: 10vw !important;
+    }
+
+    #fale {
+        font-size: 3vw;
+    }
+
+}
+
+
+
+#desc button:hover {
+    background-color: gray;
+
+}
+
+
+#desc span {
+    color: rgb(171, 30, 30);
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+#h2s {
+    width: 100vw;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -8px;
+    margin-left: -10px;
+    background-color: rgb(252, 251, 251);
+
+}
+
+#h2s h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+#div-me {
+    text-align: center;
+    background-color: transparent;
+    height: 5px;
+}
+
+.cardapio {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    margin-top: 2%;
+    background-color: rgb(240, 240, 240);
+    justify-content: center;
+}
+
+.cardapio a {
+    position: relative;
+    display: block;
+}
+
+.cardapio img {
+    width: 15vw;
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1s, transform 1s;
+    margin: 1px;
+    height: 30vh;
+}
+
+.cardapio img:hover {
+    opacity: 0.2;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.cardapio a:hover .overlay-text {
+    opacity: 1;
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+#pagC {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+    height: 90vh;
+    margin-left: 5vw;
+
+}
+
+.contatos {
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 0%;
+    margin-top: 4%;
+    width: 50vw;
+    height: 50vh;
+    font-weight: 100;
+
+}
+
+.contatos h2 {
+
+    margin-left: 2vw;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+.contatos input,
+textarea {
+    border: none;
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+}
+
+
+.contatos ul li {
+
+    list-style-type: none;
+
+}
+
+.contatos input[type="submit"] {
+    background-color: transparent;
+    border: 1px rgb(10, 10, 10) solid;
+    padding: 12px;
+    border-radius: 5px;
+    width: 13vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contatos input[type="submit"]:hover {
+    background-color: rgb(221, 22, 22);
+    color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+.galery {
+    margin-top: 5vh;
+    column-count: 2;
+    column-gap: 0;
+    width: 40vw;
+}
+
+.galery img {
+
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: scale 350ms ease, opacity 350ms linear;
+
+}
+
+#h2g {
+    text-align: center;
+}
+
+.galery:has(img:hover) img:not(:hover) {
+    scale: .9;
+    opacity: .7;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+footer {
+    display: flex;
+    background-color: rgb(7, 7, 7);
+    height: 22vh;
+}
+
+#imgF img {
+    width: 18vw;
+}
+
+footer img {
+    margin-left: 5%;
+    margin-top: 1vh;
+    width: 2vw;
+
+}
+
+footer h2 {
+    font-weight: 500 !important;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size: 25px;
+}
+
+footer ul li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+footer #mSite {
+    flex-grow: 1;
+}
+
+footer ul li,
+a:hover {
+    color: rgba(250, 9, 9, 0.966);
+}
+
+#fale {
+    flex-grow: 1;
+}
+
+#fale h2,
+span {
+
+    color: white;
+    font-weight: 400;
+}
+
+#fale p {
+    color: white;
+
+    font-weight: 100;
+}
+
+#redes {
+    text-align: center;
+    flex-grow: 1;
+}
+
+#redes h2 {
+    text-align: center;
+
+}
+
+#redes img {
+
+    margin-left: 1vw;
+    width: 2vw;
+}
+
+#redes img:hover {
+    width: 1.8vw;
+}
