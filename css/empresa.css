@@ -7,6 +7,7 @@ body {
     margin: 0px !important;
     width: 100vw;
     overflow-x: hidden;
+
 }
 
 
@@ -82,6 +83,120 @@ nav {
 }
 
 
+.slide img {
+    width: 100vw;
+    margin-bottom: 10px;
+    margin-top: 5vh;
+}
+
+span {
+    font-weight: bold;
+}
+
+#logo {
+    width: 25vw;
+    padding: auto;
+    margin-top: 20vh;
+    margin-left: 34vw;
+}
+
+#img2 img {
+    margin-left: 0vw;
+}
+
+#p {
+    background-color: rgba(122, 122, 122, 0.792);
+    color: rgb(0, 0, 0);
+    margin-left: 9vh;
+    margin-top: 3vw;
+    margin: 2vw;
+    height: 55vh;
+    width: 53vw;
+}
+
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10vh;
+    margin-left: 20vw;
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+#img {
+    color: rgb(0, 0, 0);
+    margin-left: 18vw;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------- GALERIA DE FAMOSOS QUE JA TRABALHOU O HOVER ------------------------ */
+
+#img3 img {
+    padding-top: 0vh;
+    margin-left: 0%;
+    width: 16vw;
+    float: right;
+    clear: left;
+}
+
+#img2 img {
+    padding-top: 2vh;
+    margin-left: 2%;
+    width: 16vw;
+    float: left;
+    clear: right;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#h2g {
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+#galery2 {
+    background-color: darkgrey;
+    height: 88vh;
+    margin-bottom: 0vh;
+
+}
+
+.galery {
+    margin-top: 0vh;
+    column-count: 5;
+    column-gap: 0;
+    width: 70vw;
+    margin-left: 35vh;
+    background-color: darkgrey;
+
+}
+
+.galery img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: scale 350ms ease, opacity 350ms linear;
+
+}
+
+#h2g {
+    text-align: center;
+}
+
+.galery:has(img:hover) img:not(:hover) {
+    scale: .9;
+    opacity: .7;
+}
 
 
 
@@ -207,7 +322,7 @@ nav {
         order: 1;
         width: 80vw !important;
         margin-top: 0vh !important;
-        margin-bottom: 1vh;
+        margin-bottom: 20vh !important;
 
     }
 
@@ -221,7 +336,7 @@ nav {
 
         text-align: center;
         flex-direction: column;
-        margin-top: 50vh;
+        margin-top: 100vh;
         height: 50vh !important;
 
     }
@@ -294,22 +409,39 @@ a:hover {
 }
 
 #fale {
+    
     flex-grow: 1;
 }
 
 #fale h2,
 span {
-
+    margin-left: 2vw;
     color: white;
     font-weight: 400;
 }
 
 #fale p {
     color: white;
-
+    
     font-weight: 100;
 }
 
 #redes {
+    text-align: center;
     flex-grow: 1;
+}
+
+#redes h2 {
+    text-align: center;
+
+}
+
+#redes img {
+
+    margin-left: 1vw;
+    width: 2vw;
+}
+
+#redes img:hover {
+    width: 1.8vw;
 }

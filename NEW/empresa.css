@@ -1,18 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-body {
-    margin: 0px !important;
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-
-
+/* ---------------- PARTE DO NAVBAR PARA O CLIENTE SABER MAIS ---------------- */
 .nav-link {
-    font-weight: bold;
     color: white !important;
 
 }
@@ -22,12 +17,9 @@ body {
 
 }
 
-
 .navbar-brand img {
     width: 20vw;
 }
-
-
 
 
 .justify-content-center {
@@ -36,6 +28,16 @@ body {
 
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px);
+    top: 10%;
+    left: -5px;
+    will-change: transform;
+    background-color: transparent;
+
+}
 
 .dropdown {
     display: inline-block;
@@ -45,7 +47,7 @@ body {
 }
 
 .dropdown-item {
-    display: none;
+    background-color: transparent;
     color: white;
     border: 1px white solid;
 }
@@ -54,9 +56,6 @@ body {
     margin-right: 5px;
 }
 
-
-
-
 nav {
     font-size: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -64,15 +63,13 @@ nav {
 
 }
 
-
-
 .zap {
     margin-right: 1vw;
 }
 
 .zap img {
 
-    width: 2.3vw;
+    width: 3.5vw;
 
 
 }
@@ -81,176 +78,210 @@ nav {
     width: 3.2vw;
 }
 
+/* ------------------------- PARTE TO TEXTO E FOTO SOBRE QUEM É A EMPRESA ----------------------*/
 
+.slide img {
+    width: 100vw;
+    margin-bottom: 10px;
+    margin-top: 5vh;
+}
 
+span {
+    font-weight: bold;
+}
 
+#logo {
+    width: 25vw;
+    padding: auto;
+    margin-top: 20vh;
+}
 
-@media (min-width: 0px) and (max-width: 1000px) {
+#img2 img {
+    margin-left: 0vw;
+}
 
-    nav {
-        font-size: 2vw;
-    }
+#p {
+    background-color: rgba(122, 122, 122, 0.792);
+    color: rgb(0, 0, 0);
+    margin-left: 9vh;
+    margin-top: 3vw;
+    margin: 2vw;
+    height: 55vh;
+    width: 53vw;
+}
 
-    .navbar-brand img {
-        display: none;
-    }
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10vh;
+    margin-left: 20vw;
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+}
 
-    .dropdown-item {
-        border: 1px white solid;
-        color: white;
-        background-color: transparent;
-    }
+h1 {
+    text-align: center;
+}
 
+#img {
+    color: rgb(0, 0, 0);
+    margin-left: 18vw;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
 
-    .navbar-nav {
-        margin-left: -20vw;
-    }
+/* ------------------------- GALERIA DE FAMOSOS QUE JA TRABALHOU O HOVER ------------------------ */
 
-    /* ---------------------------------------------------------------------------------------------------------- */
+#img3 img {
+    padding-top: 0vh;
+    margin-left: 0%;
+    width: 16vw;
+    float: right;
+    clear: left;
+}
 
-    main {
-        height: 220vh;
-    }
+#img2 img {
+    padding-top: 2vh;
+    margin-left: 2%;
+    width: 16vw;
+    float: left;
+    clear: right;
+}
 
-    .container {
-        width: 800px !important;
-        max-width: none;
-    }
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
 
-    .container img {
-        width: 100%;
+#h2g {
+    margin-bottom: 5px;
+    font-size: 50px;
+}
 
-    }
+#galery2 {
+    background-color: darkgrey;
+    height: 45vw;
+}
 
-    .container button {
-        margin-left: 1px !important;
-        float: left !important;
-        width: 100% !important;
-    }
+.galery {
+    margin-top: 0vh;
+    column-count: 5;
+    column-gap: 0;
+    width: 70vw;
+    margin-left: 35vh;
+    background-color: darkgrey;
+}
 
-    #desc {
-        width: 100% !important;
-        margin-left: 0px !important;
-        flex-grow: 1 !important;
-
-
-    }
-
-    #desc p {
-        line-height: 30px;
-        width: 30vw;
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .carousel-container img {
-        height: 50vh;
-    }
-
-
-
-    .cardapio {
-        width: 100vw;
-        height: 20vh !important;
-    }
-
-    .cardapio a img {
-        width: 30vw;
-        margin-left: 1vw;
-        height: 20vh;
-        margin-bottom: 5% !important;
-    }
-
-    /* ---------------------------------------------------------------------------------- */
-    #pagC {
-        flex-direction: column;
-        margin-top: 5vh;
-        align-items: center;
-        height: 60vh !important;
-
-    }
-
-    #pagC h2 {
-        font-size: 50px;
-
-    }
-
-    /* --------------------------------------------------------------------------------------- */
-    form {
-        margin-right: 2% !important;
-        text-align: center;
-    }
-
-    form ul li {
-
-        width: 100%;
-    }
-
-    label {
-        width: 100%;
-        font-size: 40px !important;
-    }
-
-    .contatos {
-        order: 2;
-        height: 80vh !important;
-
-    }
-
-    .contatos input,
-    textarea {
-        width: 40vw !important;
-        height: 5vh;
-    }
-
-    .galery {
-        order: 1;
-        width: 80vw !important;
-        margin-top: 0vh !important;
-        margin-bottom: 1vh;
-
-    }
-
-    #h2g {
-        margin-bottom: 1px;
-        font-size: 50px;
-    }
-
-
-    footer {
-
-        text-align: center;
-        flex-direction: column;
-        margin-top: 50vh;
-        height: 50vh !important;
-
-    }
-
-    footer h2 {
-        font-size: 50px !important;
-        margin-left: 3vw;
-    }
-
-    footer #imgF img {
-        width: 60vw;
-    }
-
-    footer ul li,
-    a {
-        font-size: 3vw !important;
-    }
-
-    #redes img {
-        width: 10vw !important;
-    }
-
-    #fale {
-        font-size: 3vw;
-    }
+.galery img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: scale 350ms ease, opacity 350ms linear;
 
 }
 
-/* ---------------------------------------------------------------- */
+#h2g {
+    text-align: center;
+}
+
+.galery:has(img:hover) img:not(:hover) {
+    scale: .9;
+    opacity: .7;
+}
+
+/* --------------------- FOOTER PARTE ONDE FICA O RODAPÉ DA PAGINA ------------------------------ */
+
+form {
+    margin-right: 2% !important;
+    text-align: center;
+}
+
+form ul li {
+
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    font-size: 40px !important;
+}
+
+.contatos {
+    order: 2;
+    height: 80vh !important;
+
+}
+
+.contatos input,
+textarea {
+    width: 40vw !important;
+    height: 5vh;
+}
+
+.galery {
+    order: 1;
+    width: 80vw !important;
+    margin-top: 0vh !important;
+    margin-bottom: 1vh;
+
+}
+
+#h2g {
+    margin-bottom: 1px;
+    font-size: 50px;
+}
+
+
+#mSite h2 {
+    margin-left: 3vw;
+    font-size: 4vw;
+}
+
+#fale h2 {
+    font-size: 4.8vw;
+}
+
+#imgF img {
+    display: none;
+
+}
+
+#redes img {
+    width: 8vw;
+
+}
+
+#redes img:hover {
+    width: 7vw;
+
+}
+
+footer {
+    height: 2% !important;
+    font-size: 3vw;
+}
+
+footer ul li a {
+
+    font-size: 3vw;
+    color: white !important;
+}
+
+
+#desc button:hover {
+    background-color: gray;
+
+}
+
+
+#desc span {
+    color: rgb(171, 30, 30);
+}
+
+/* ------------------------------ CONTINUACAO DA EDICAO DO RODAPÉ O FOOTER -------------------------- */
+
 footer {
     display: flex;
     background-color: rgb(7, 7, 7);
