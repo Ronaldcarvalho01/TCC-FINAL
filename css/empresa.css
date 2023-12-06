@@ -136,67 +136,8 @@ h1 {
     flex-direction: column;
 }
 
-/* ------------------------- GALERIA DE FAMOSOS QUE JA TRABALHOU O HOVER ------------------------ */
 
-#img3 img {
-    padding-top: 0vh;
-    margin-left: 0%;
-    width: 16vw;
-    float: right;
-    clear: left;
-}
 
-#img2 img {
-    padding-top: 2vh;
-    margin-left: 2%;
-    width: 16vw;
-    float: left;
-    clear: right;
-}
-
-h2 {
-    font-size: 50px;
-    text-align: center;
-}
-
-#h2g {
-    margin-bottom: 5px;
-    font-size: 50px;
-}
-
-#galery2 {
-    background-color: darkgrey;
-    height: 88vh;
-    margin-bottom: 0vh;
-
-}
-
-.galery {
-    margin-top: 0vh;
-    column-count: 5;
-    column-gap: 0;
-    width: 70vw;
-    margin-left: 35vh;
-    background-color: darkgrey;
-
-}
-
-.galery img {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    transition: scale 350ms ease, opacity 350ms linear;
-
-}
-
-#h2g {
-    text-align: center;
-}
-
-.galery:has(img:hover) img:not(:hover) {
-    scale: .9;
-    opacity: .7;
-}
 
 
 
