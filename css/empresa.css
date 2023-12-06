@@ -11,6 +11,10 @@ body {
 }
 
 
+main {
+    height: auto;
+    text-align: center;
+}
 
 .nav-link {
     font-weight: bold;
@@ -82,45 +86,35 @@ nav {
     width: 3.2vw;
 }
 
-
 .slide img {
     width: 100vw;
     margin-bottom: 10px;
-    margin-top: 5vh;
+    margin-top: 1vh;
 }
 
-span {
+#img span {
     font-weight: bold;
+    color: red;
 }
 
 #logo {
     width: 25vw;
     padding: auto;
     margin-top: 20vh;
-    margin-left: 34vw;
+
 }
 
-#img2 img {
-    margin-left: 0vw;
-}
 
-#p {
-    background-color: rgba(122, 122, 122, 0.792);
-    color: rgb(0, 0, 0);
-    margin-left: 9vh;
-    margin-top: 3vw;
-    margin: 2vw;
-    height: 55vh;
-    width: 53vw;
-}
 
-p {
+#img p {
+   
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10vh;
-    margin-left: 20vw;
+    margin-left: 8vw;
     margin-top: 2vw;
     margin-bottom: 10vw;
+    width: 50vw;
+    color: black;
 }
 
 h1 {
@@ -135,10 +129,6 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-
-
-
-
 
 
 @media (min-width: 0px) and (max-width: 1000px) {
@@ -350,7 +340,7 @@ a:hover {
 }
 
 #fale {
-    
+
     flex-grow: 1;
 }
 
@@ -363,7 +353,7 @@ span {
 
 #fale p {
     color: white;
-    
+
     font-weight: 100;
 }
 
